@@ -3,7 +3,7 @@ const { createServer } = require('node:http');
 const { join } = require('node:path');
 const { Server } = require('socket.io')
 
-const port = 3000;
+// const port = 3000;
 const app = express();
 const server = createServer(app);
 const io = new Server(server);
